@@ -1,0 +1,279 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 4
+npc:
+  '4':
+    metadata:
+      cached-skin-uuid-name: cobblestone
+      cached-skin-uuid: c6523f38-bc40-4444-94ad-74fc0e874b1c
+    name: §aCobbleStone
+    uuid: 13987eaa-89bb-44a4-8560-956094a57bc9
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: TaAVon7rpMDCsLnwXWYyOTxHHhLpfZNOOuzvkhzXnD7Nct8k5tJx3pbyFt8NycCjeH6V3M5job342QUk0zUZjNOvmdQ67/uN7jNRuK441ujxoFCycG3dsGY9lJYLIL+gzPYwQunFlLQKiBvrVSNcByFa7rLR7EmS5zAIcu6polM7HiO302y2HTHiwo/uIv1/KRr+Yk5o+GztVZhbYjMaswzci9p0n2Z0AqPGZunqCyjf7utYyEk8xDia4FoDrZg/WgE/8yam73+eJGDO4dso7MqVbh+Bi2iyF8ZH9qKXriJ4u9ZOj8bp10aZOt1DFy0RLJecRxtoUTsFr88OysPEN4c1HuxYIiSzbfz3HnVMhQW4RdOInew5VD/WuWLOIKX08aNQHcDegzdL88XRZjqtO/ULsy1auzrnp9STHdzYd3wQ1ca2FKF4P8JPcCpKtPiR5hgH6BVX15CZ5VkmyCWecoEdmDJE0V9DXn1HtLGNToF+zT4obwBZkZsEG3M57nQOs28RTejSD9JjkrLHU3g6s82uBNTPex5num29t96DZQp0cQT0ZbJlJAlOYwwkYQZFp2Wj+ZdDx6DY+Z56qx3MlR3JGFruLeursDpUODEK1kaMH/8ODYNUlZ1WFcczHfaYNnPAxDw2UuFexTLelD+fuYVP2TQmOIZYPpNVb1nh8tM=
+        skinName: cobblestone
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODM2ODIxOTk1MSwKICAicHJvZmlsZUlkIiA6ICJjNjUyM2YzOGJjNDA0NDQ0OTRhZDc0ZmMwZTg3NGIxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb2JibGVzdG9uZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYmI5Y2FjZmFlMDhlYzkyZjVjMjM4NTk1YjFiZWE5MzgxOTQ1NjMxZGM5OTM4N2UzNWYzZDc2ZTdkNDAwMTE5IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: bryat2222
+        uuid: 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+      location:
+        bodyYaw: -51.035614
+        world: world
+        x: '-4.3833'
+        y: '99.0'
+        z: '24.4432'
+        yaw: '-51.0356'
+        pitch: '11.5444'
+      commandtrait:
+        commands:
+          '0':
+            command: gen
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+    traitnames: mounttrait,lookclose,type,skintrait,spawned,owner,location,inventory,scoreboardtrait,commandtrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid-name: skyblock
+      cached-skin-uuid: d36d835f-e707-4d43-8286-14ed7c325ac2
+    name: §aAda
+    uuid: 20955349-43aa-45ab-b70a-7ba3e50dac76
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Lm1ONJqGq2eWg4o9ULdpzmukRh41vKqABLcOnSFfzzZJNJ4lSH+P6JUVQiz1S0GjfkHZVcFt8QncDl9ey0GY7xoKIzkhT6ixPf4b9t6h7o0LE2+hcrW31oqe5L5cbilDolGNeDXsCkKmnMTgN6zC5XoxRg+MDKJomsWZ6ubkkyw+dNzpCrsHbZSitcydPA55C4eA3VkjeEg9MrL+/4dcAlyLj4qDCgTlesgUVzx+7KXavL5a+Gv1IAvXoKuZ/1fo70I0w1uBgHlXt4nv8wMZYCxr17I8O7eXqmpiriWb+LzS3Q0qoXB6k2nfs9ix/vZmInY4SrT8k+NFhPPb04a6QbUjZ4obOa3YPkHNb/prGKeuhdj/cuS8RmA/w/T0+G28lO7jCqfsIVLNIOHs+hSafx060NoI+hyTSzMrjf7FCuXz7lcSlGDIgM5Kx2WvlhiekQa6DIxMfX0j/T9Jg3LAB/KG4AeSzM/5gsV9wiY4KA5Kn9/w2MFv/D7C7gASP5Jd06ZyJaEhbmKUVNs6SjAIaZBhwiFtMloO9pg+qerXUT0fD+hl8KkzjVVxlYrLzkguWDDi3ubwCYwM+R5+om0RjU5/BfOyD2rbbYjfmHary/XvpUOMns9IgZMl+dlJidbAwRGVUapkukWBxk/+fxcklRlKVXGJVS8KNPkhgEI7Pz8=
+        skinName: skyblock
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODM2ODE5OTI0NiwKICAicHJvZmlsZUlkIiA6ICJkMzZkODM1ZmU3MDc0ZDQzODI4NjE0ZWQ3YzMyNWFjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3lCbG9jayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmI2MTJkOTAzMmIzZWVmMjNhM2NiZGViYjIyNjE5ZDg1ZGNmNWZlNjNjMDBkMDc0YzQxZjdlNWUzOTk5Y2Q1IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: bryat2222
+        uuid: 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+      location:
+        bodyYaw: -33.690094
+        world: world
+        x: '-4.3863'
+        y: '99.0'
+        z: '20.4417'
+        yaw: '-33.6901'
+        pitch: '8.0742'
+      commandtrait:
+        commands:
+          '0':
+            command: is
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+    traitnames: mounttrait,lookclose,type,skintrait,spawned,owner,location,inventory,scoreboardtrait,commandtrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: chestt
+      cached-skin-uuid: b9153613-6da2-4044-932c-92f258cf522e
+    name: §aKasacı
+    uuid: 0fd58638-49ce-40f0-a1ab-ff6bef02df5f
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EgS6yel3iuO7nozwFkGjwW2NfpZQyy1qChqLq1uu0aiatEVekYlkU57CyOOPQ/1+4p9oLSV12NfIYJiOMO7eghXpV60/a1TBgxP5+EWKeOZrLi8NV5/xifn7eHyyZfuboekV1qQ/9sdnQiVZW7BBo5MWwvN60Q27c5kgZHEcY3UpTlHJUUaNZszBMfiEr5SZd3XbxinL5hEJBAL1cejXrXHW1tyRy2xNEWoGD7MOjk0skqJ7h5cTPGOD/1BGeS/nmcJKbEW3u3M2f7vAwjxl12hy2SF8Z8HEQOmONQKDHDajrMRpWbwpA0T1m2X/8U5GsRGZcvfQiLm1vdTCJQJL4VTjvufQfzi/MARXkodyrL46nN2BoU4UYfe9jy4mMMogz2Zj5PmV2zBm5m08QAWU2YRVrSOoPz/iDX1S2ir7h8ZLku0IaG0DuSdAwRrdiY7vSWIFCwKr8lr9qvLZTF3P/QS8mK8A+/sHL5Kw/JG1S004buU+l5nn66Clu+KAJ7z1b3Y5xzYlRtqvV8Hixt8dh76UfuWAg2g2T6Nn/qlAY9SmCMpcn7URZmaP2nJmX5uQBLHIKv8VXZjPuylB7M5X4bnOQdK8MEJKBS3yr32wGUofqnuXEaKZrD1GW6IHSTQdeaVVbP1cTe36zNFFFGLprAO5/lsm4Ha8+IihuHHgU6M=
+        skinName: chestt
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODM2NzkxNTc1NywKICAicHJvZmlsZUlkIiA6ICJiOTE1MzYxMzZkYTI0MDQ0OTMyYzkyZjI1OGNmNTIyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGVzdHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc1ODEzNDc2ODdiZmJkMjM1Y2M2YmFmM2M5OWMyMjM5ZGEwNjljNjMxOGM1YmRmZjAzMzBiMjZmNDljNGU1OCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: bryat2222
+        uuid: 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+      location:
+        bodyYaw: 44.580093
+        world: world
+        x: '5.5648'
+        y: '99.0'
+        z: '21.5021'
+        yaw: '44.5801'
+        pitch: '-2.7675'
+      commandtrait:
+        commands:
+          '1':
+            command: crate
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+    traitnames: mounttrait,lookclose,type,skintrait,spawned,owner,location,inventory,scoreboardtrait,commandtrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: steve
+      cached-skin-uuid: 8667ba71-b85a-4004-af54-457a9734eed7
+    name: §aSıralama
+    uuid: 80d4cf56-22d4-487b-8c47-a84f6c2122a8
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: XPXos3taYShGV/XcuIfnBIwTyciGNnABGLlRXuY13+kboS5vyQHjbDf2wKSLkmpkJDWtNfXu+mvpj1h+KciLpflo/XPL4iHyilKl4csu3+rTAfpXtl1g7qWfTHIfIoRTV/5jRdEufPhZ+6srPLMEdqEXjyuhrZZZhKp+hhA7Kosxwi7DXBh4OFEzJG3q2+oJsIWZXblSH+CBp81UQGQmWxgiE1wYm/0dUYUPDuUDh98HlBVCEYE0h/rJBmHNn2wsWJXD0RZOGfMncv6Who+n11pr24HADGLJ3TnphYL9R+Adn3CiPuGamw5IOr5OR+Oqbv/iS625x3771JoPqPNopVLGvGEsf+7eWXH7A9NAF2qZLE4Dy4fT8uq1N2V2rILzDIo2ajllkbQ7pnVVdx4lVx5xv9CjbPQmy3WhxpdZwmUKXlyh5/TNOylMt67SiNy3WI3xNMTSgAQPo2wjugmiEaGo0DmpUQgsUmreeIER9eeGidQCKleW1x27dsxO3q1ECDRvtPotMsZhYedB5priJ4GaVDw8cc/Pwh9m/npDd/hRAbIeiJoWWIskjtgfhBqM9hP+DTcuyhGE5PjAtZoYWdPXa/gVCNcSYVupEh62knbIUcqWRzLYYMczflQorqEA2BhMBZYMQZIA+dvewHporXK87IMUR2uWzduAwofWVWU=
+        skinName: steve
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODM2ODMyNDIxOCwKICAicHJvZmlsZUlkIiA6ICI4NjY3YmE3MWI4NWE0MDA0YWY1NDQ1N2E5NzM0ZWVkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGV2ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MGE1YmQwMTZiM2M5YTFiOTI3MmU0OTI5ZTMwODI3YTY3YmU0ZWJiMjE5MDE3YWRiYmM0YTRkMjJlYmQ1YjEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1M2NhYzhiNzc5ZmU0MTM4M2U2NzVlZTJiODYwNzFhNzE2NThmMjE4MGY1NmZiY2U4YWEzMTVlYTcwZTJlZDYiCiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: bryat2222
+        uuid: 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+      location:
+        bodyYaw: 47.96559
+        world: world
+        x: '38.5442'
+        y: '104.0'
+        z: '-32.2837'
+        yaw: '47.9656'
+        pitch: '7.7932'
+      commandtrait:
+        commands:
+          '0':
+            command: island top
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+    traitnames: mounttrait,lookclose,type,skintrait,spawned,owner,location,inventory,scoreboardtrait,commandtrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: turk
+      cached-skin-uuid: 306ec268-5185-4bb5-9115-4aeaea39af20
+    name: §aMarket
+    uuid: afc0d6c2-792e-4de8-8a77-97562af82111
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: w6MoKLEg3PyBuPHeKqFIHTGMc4VfKoZgnD+QHSPlcGqbmvs5domZLJwttfxa+yc0q+T6/IX2kQjuyteuwYzX9Z3hxVhAyt288WOh7Zkpd8aRZhZyK4aQ7+5CdrvaVp3auOlVGx0sryRQldWXFka1JKmfNR+Pb+NnSPy4oFeEbrrUcSxy+PW6qoqTvlfTpAJ/2vZp9v0ILzfmM9NL3NGCqH52AgUFJv+Y5U8lzSh3vP6/dniy+NFOCjo7RVVo0O0Majx3SOy4kw2wvV+SNkIVH+my53WABwmd6GkV315JpmfGtmfH6onkPKQmIVMeS0xjKFZxyGhShUMFnSh0rfisIrPpRUZJBqsc9/zBlaC3B7J2TLNNX03HKzh06QeGJc8Vt/6J3nsC3K6ug1n0bMbcGWO6GivWBKXe2ILcmaa7mRfUBqNOMO4aVhtxKQx9UCQA80cS5eqAVlgk+eViP9SbTkQHG6sqmt9BBd3Wvrd62QlE3i1P+Cx8sztllsN1qpqtzK4tI2N0eRgIDlV5yeSXmOXzj0hNGZTw22SArUaoWzUfbo78b9R8Fb+AJfERx4OQcWynIQUtqGDRBuL5u3uRQmhJR2xfQXyQiMccQWjODIrd/XWPXUx5DH6GuJreUnPkBy0fxPHy3Jb6Aq/W/i9UAf6EI70on+u56YH9GgiWvLs=
+        skinName: turk
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODM2ODI5MDg3NSwKICAicHJvZmlsZUlkIiA6ICIzMDZlYzI2ODUxODU0YmI1OTExNTRhZWFlYTM5YWYyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUdXJrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg1MTE3YWQzZmQ4ZjJlMTkxNThhOWIzNjEyMDllOTI1ZmFiZjBlYTBmMmMxNDg1ZjcwMDU0MjRjOTM2ZmI5OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: bryat2222
+        uuid: 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+      location:
+        bodyYaw: -102.191414
+        world: world
+        x: '-38.421'
+        y: '101.0'
+        z: '-0.6756'
+        yaw: '-102.1914'
+        pitch: '-3.2312'
+      commandtrait:
+        commands:
+          '0':
+            command: shop
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+    traitnames: mounttrait,lookclose,type,skintrait,spawned,owner,location,inventory,scoreboardtrait,commandtrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

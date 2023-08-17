@@ -1,0 +1,26 @@
+users:
+  4d8a0dde-9539-3146-aa93-eeaf879da3c9:
+    lastname: bryat2222
+    group: Rehber
+    subgroups: []
+    permissions: []
+  94201c8a-1c80-3e11-85a9-b9425b1a9d47:
+    lastname: bryat222222
+    group: vip
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

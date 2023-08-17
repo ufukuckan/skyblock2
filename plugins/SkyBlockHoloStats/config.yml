@@ -1,0 +1,5 @@
+topline: '&6SkyBlock Top 5'
+format: '&b#%rank% &6%nickname% &eAda seviyesi&6 %level%'
+update interval: 15
+boards:
+  top5: world;38;109;-32;0_0;0_0

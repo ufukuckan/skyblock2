@@ -1,0 +1,41 @@
+global:
+  prefıx: '&5Smooth&dTimber &8||'
+  lıst-splıt: '&7, &d'
+reload:
+  needed: '&7Detected a %type0% change, &5reloading %type1%&7...'
+  done: '&7%type% reloaded &dsuccessfully!'
+versıon:
+  supported: '&7You''re currently using the &dsupported&7 Minecraft Version &d%minecraft%
+    &7(&5Core %core%&7)'
+  unsupported: '&7You''re currently using the &cunsupported&7 Minecraft Version &4%minecraft%'
+  need-update: '&7If you want to use &5Smooth&dTimber &7you need to update your server
+    to a supported Minecraft Version'
+  versıons: '&7Supported Versions are: &d%versions%'
+type:
+  message: mesaj
+  messages: mesajlar
+  settıng: ayar
+  settıngs: ayarlar
+tıme:
+  second: saniye
+  seconds: saniyeler
+tools:
+  oduncu: oduncu
+  woodchopper: woodchopper
+toggle:
+  'on':
+    forever: Oduncu özelliğini aktif ettiniz .
+    tımed: Oduncu özelliğini süreli aktif ettiniz.
+  'off': Oduncu özelliğini deaktif ettiniz .
+  dısabled: Oduncu özelliğini deaktif ettiniz .
+command:
+  only:
+    player: Sadece bir oyuncu bu komutu çalıştırabilir.
+  wıp: Bu komut zaten çalışıyor.
+  non-exıstent: Böyle bir komut yok. Yardım için /sm help komutunu kullanınız.
+  mıssıng-permıssıon: Bu komutu kullanmak için yeterli yetkiye sahip değilsiniz .
+  usage:
+    toggle: '&7/sm toggle (<time>) &8- Ağaç kesme özelliğini süreli veya sınırsız
+      açma.'
+    help: '&7/sm help &8- Bütün oduncu komutlarını gösterme ve nasıl kullanıldığı
+      hakkında bilgi verme.'

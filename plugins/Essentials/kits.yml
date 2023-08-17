@@ -1,0 +1,74 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  cirak:
+    delay: 432000
+    items:
+      - 276 1 Sharpness:1 Fire Aspect:1
+      - 278 1 Efficiency:1 Fortune:1 Unbreaking:1
+      - 279 1 Efficiency:1 Fortune:1 Unbreaking:1 
+      - 277 1 Efficiency:1 Fortune:1 Unbreaking:1
+      - 261 1 Power:1 Flame:1 Infinity:1
+      - 262 64
+      - 322:1 8
+      - 310 1 Protection:1 Unbreaking:1
+      - 311 1 Protection:1 Unbreaking:1
+      - 312 1 Protection:1 Unbreaking:1
+      - 313 1 Protection:1 Unbreaking:1
+      - 264 16
+  tecrubeli:
+    delay: 604800
+    items:
+      - 276 1 Sharpness:3 Fire Aspect:2
+      - 278 1 Efficiency:3 Fortune:1 Unbreaking:2
+      - 279 1 Efficiency:3 Fortune:1 Unbreaking:2 
+      - 277 1 Efficiency:3 Fortune:1 Unbreaking:2
+      - 261 1 Power:2 Flame:1 Infinity:1
+      - 262 64
+      - 322:1 8
+      - 310 1 Protection:3 Unbreaking:2
+      - 311 1 Protection:3 Unbreaking:2
+      - 312 1 Protection:3 Unbreaking:2
+      - 313 1 Protection:3 Unbreaking:2
+      - 264 16
+  rehber:
+    delay: 259200
+    items:
+      - 276 1 Sharpness:7 Fire Aspect:3
+      - 278 1 Efficiency:7 Fortune:3 Unbreaking:3
+      - 279 1 Efficiency:7 Fortune:3 Unbreaking:3 
+      - 277 1 Efficiency:7 Fortune:3 Unbreaking:3
+      - 261 1 Power:3 Flame:1 Infinity:1
+      - 262 64
+      - 322:1 8
+      - 310 1 Protection:7 Unbreaking:3
+      - 311 1 Protection:7 Unbreaking:3
+      - 312 1 Protection:7 Unbreaking:3
+      - 313 1 Protection:7 Unbreaking:3
+      - 264 16
+  vip:
+    delay: 172800
+    items:
+      - 276 1 Sharpness:7 Fire Aspect:3
+      - 278 1 Efficiency:7 Fortune:3 Unbreaking:3
+      - 279 1 Efficiency:7 Fortune:3 Unbreaking:3 
+      - 277 1 Efficiency:7 Fortune:3 Unbreaking:3
+      - 261 1 Power:3 Flame:1 Infinity:1
+      - 262 64
+      - 322:1 8
+      - 310 1 Protection:7 Unbreaking:3
+      - 311 1 Protection:7 Unbreaking:3
+      - 312 1 Protection:7 Unbreaking:3
+      - 313 1 Protection:7 Unbreaking:3
+      - 264 16
+

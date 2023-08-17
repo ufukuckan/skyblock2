@@ -1,0 +1,28 @@
+#######################################################
+##                   Created By                      ##
+##                    Deckerz, ThunderGemios10       ##
+#######################################################
+announcement:
+    enabled: true
+    random: false
+    prefix: '&1DUYURU '
+    interval: 60
+    check-for-updates: true
+    auto-update: false
+    messages:
+    - '&3Markete girmek için /market yazabilirsiniz. '
+    - '&3Adanıza gitmek için /ada yazabilirsiniz.'
+    - '&3Ada ayarlarını açmak için /is settings yazabilirsiniz.'
+    - '&3Sıralama listesine gitmek için /warp Sıralama yazabilirsiniz'
+    - '&3/warp yazarak warp listesine bakabilirsiniz.'
+    - '&3Bizi tercih ettiğiniz için teşekkür ederiz.'
+    - '&3/kit yazarak alabileceğiniz kitleri görebilirsiniz.'
+    - '&3En iyisi için yani sizin için çalışıyoruz.'
+    - '&3Adanızda size özel cobblestone generator özelliklerini açmak için /gen yazabilirsiniz.'
+    - '&3VİP olanlar için hızlı odun kesme özelliği olan /oduncu özelliğini kullanabilirler.'
+    - '&3VİP alanlar için birçok ayrıcalık var.'
+    - '&3VİP olanlar için /fly komutunu kullanabilirler.'
+    - '&3/para yazarak ne kadar paranız olduğunu öğrenebilirsiniz.'
+    - '&3Serverimiz tamamiyle Türkçedir.'
+    - '&3/crate yazarak kasa anahtarlarınızı temin edebilirsiniz.'
+    - '&3Sunucumuzda ChestShop bulunmaktadır, kendi dükkanınızı açabilirsiniz.'

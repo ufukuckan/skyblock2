@@ -1,0 +1,32 @@
+#
+#          LatinBoard
+#  Created by GabrielHD150
+#
+disabledWorlds:
+    - mundo1
+    - mundo2
+# Set scoreboards title. NOTE: Maximum 16 caracters!
+Title: '&2İSTATİSTİKLER'
+#In Seconds
+UpdateTimer: 3
+
+# Here write at least 1 line for the scoreboard. NOTE: Maximum 42 characters per line AND maximum 15 lines!
+scoreboard-lines:
+    - '    &aHOŞGELDİNİZ&7:'
+    - '&1OYUNCU&7: &b%player%'
+    - '%empty%'
+    - '&7&aBilgi&7:'
+    - ' &fRütbe: &a%group%'
+    #- ' &fWorld: &a%world%'
+    - ' &fMs: &a%player_ping%'
+    - ' &fParanız: &a%vault_eco_balance%    '
+    - ' &fAda Seviyesi: &a%askyblock_level%  '
+    - ' &fOnline Oyuncu: &a%list% '
+    - '     &6SERVERİNİZ'
+
+#Variables:
+#  %player% - Show the name of the Player
+#  %player-displayname% - Show the display name of the player
+#  %group% - shows the Player's range // only with Vault
+#  %empty% - empty line
+# This plugin PlaceHolderAPI and MVdWPlaceholderAPI support!

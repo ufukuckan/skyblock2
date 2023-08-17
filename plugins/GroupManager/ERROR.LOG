@@ -1,0 +1,58 @@
+2020-08-24 03-56
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.6 (Phoenix) =
+
+java.lang.IllegalArgumentException: Your plugins\GroupManager\worlds\world\groups.yml file is invalid. See console for details.
+	at org.anjocaido.groupmanager.dataholder.WorldDataHolder.loadGroups(WorldDataHolder.java:605)
+	at org.anjocaido.groupmanager.dataholder.WorldDataHolder.loadGroups(WorldDataHolder.java:525)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.loadWorld(WorldsHolder.java:738)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.loadWorld(WorldsHolder.java:699)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.initialWorldLoading(WorldsHolder.java:135)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.initialLoad(WorldsHolder.java:125)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.resetWorldsHolder(WorldsHolder.java:117)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.<init>(WorldsHolder.java:75)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:216)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:141)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+	at java.lang.Thread.run(Unknown Source)
+
+============================================================================
+
+2020-08-24 04-01
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 2.6 (Phoenix) =
+
+java.lang.IllegalArgumentException: Your plugins\GroupManager\worlds\world\groups.yml file is invalid. See console for details.
+	at org.anjocaido.groupmanager.dataholder.WorldDataHolder.loadGroups(WorldDataHolder.java:605)
+	at org.anjocaido.groupmanager.dataholder.WorldDataHolder.loadGroups(WorldDataHolder.java:525)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.loadWorld(WorldsHolder.java:738)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.loadWorld(WorldsHolder.java:699)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.initialWorldLoading(WorldsHolder.java:135)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.initialLoad(WorldsHolder.java:125)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.resetWorldsHolder(WorldsHolder.java:117)
+	at org.anjocaido.groupmanager.dataholder.worlds.WorldsHolder.<init>(WorldsHolder.java:75)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:216)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:141)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+	at java.lang.Thread.run(Unknown Source)
+
+============================================================================
+

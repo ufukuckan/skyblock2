@@ -1,0 +1,33 @@
+version: 2
+cutter:
+  radius: 2
+  materials:
+  - WOOD_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLD_AXE
+  - DIAMOND_AXE
+options:
+  cutter:
+    sneak: false
+    toggleable: true
+    sync-detection: true
+    permissions: false
+enchantments:
+  unbreaking:
+    enabled: true
+  fortune:
+    enabled: false
+    multiplier: 1.0
+exclusion:
+  enabled: false
+  list: []
+worlds:
+  enabled: false
+  blacklist: false
+  list:
+  - world
+  - world_nether
+  - world_the_end
+extensions:
+  blockylog: true

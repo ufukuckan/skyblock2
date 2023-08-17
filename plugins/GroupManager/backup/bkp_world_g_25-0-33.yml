@@ -1,0 +1,88 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Rehber:
+    default: false
+    permissions:
+    - essentials.ban
+    - essentials.jail
+    - essentials.kick
+    - essentials.mute
+    - essentials.timeout
+    - burkeyshop.use
+    - -smoothtimber.use
+    - essentials.kits.rehber
+    - essentials.kits.cirak
+    - essentials.kits.tecrubeli
+    inheritance:
+    - default
+    info:
+      build: false
+      prefix: '&9[&e&lS&b&lB&6Rehber&9]&a'
+      suffix: ''
+  Mimar:
+    default: false
+    permissions:
+    - '&9[&e&lS&b&lB&6Mimar&9]&a'
+    - essentials.break
+    - essentials.build
+    - prefix
+    - burkeyshop.use   
+    - -smoothtimber.use
+    inheritance: []
+    info:
+      build: false
+      prefix: '&9[&e&lS&b&lB&6Mimar&9]&a'
+      suffix: ''
+  vip:
+    default: false
+    permissions:
+    - deny
+    - essentials.fly
+    - essentials.kits
+    - essentials.kits.cirak
+    - essentials.kits.tecrubeli
+    - essentials.kits.rehber
+    - essentials.kits.vip
+    - smoothtimber.use
+    - burkeyshop.use
+    inheritance:
+    - default
+    info:
+      build: false
+      prefix: '&9[&e&lS&b&lB&dVIP&9]&a'
+      suffix: ''
+  Default:
+    default: true
+    permissions:
+    - essentials.build
+    - essentials.msg
+    - essentials.tpa
+    - essentials.tpaaccept
+    - essentials.tpaccept
+    - essentials.tpadeny
+    - burkeyshop.use   
+    - -smoothtimber.use
+    - essentials.kits.cirak
+    - essentials.kits.tecrubeli
+    - -essentials.kits.rehber
+    - -essentials.kits.vip
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    - rehber
+    - mimar
+    info:
+      build: false
+      prefix: '&9[&e&lS&b&lB&bOyuncu&9]&a'
+      suffix: '&2'

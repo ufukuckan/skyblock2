@@ -1,0 +1,347 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.5.2 Config
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+# - %rand;100;500% - Generates a random number between two numbers, example is between 100 and 500.
+# ------------------------------------------
+# Don't change the config version!
+
+Config Version: 6
+Update Checks: true
+Update Branch: spigot
+Metrics: true
+Default Opener: BasicGUI
+Default Cooldown: 5
+Crate Protection: false
+Disable Key Swapping: false
+Default Hologram Text:
+- '%crate%'
+- Açmak için sağ tıklayın!
+- Ön izleme için sol tıklayın!
+Crates:
+  VIP:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: DARK_AQUA
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: BEACON
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: PISTON_BASE
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: Vip Pantolon
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-3
+        - DURABILITY-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Vip Pantolon
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 3
+      '4':
+        Type: ITEM
+        Item Type: PISTON_STICKY_BASE
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: Vip Kılıç
+        Amount: 1
+        Enchantments:
+        - DAMAGE_ALL-3
+        - KNOCKBACK-2
+        - LOOT_BONUS_MOBS-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Vip Kılıç
+          enchants:
+            DAMAGE_ALL: 3
+            LOOT_BONUS_MOBS: 3
+            KNOCKBACK: 2
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: Vip Çorap
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DEPTH_STRIDER-3
+        - DURABILITY-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Vip Çorap
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DEPTH_STRIDER: 3
+            DURABILITY: 3
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_AXE
+        Item Data: 0
+        Name: Vip Balta
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-3
+        - DURABILITY-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Vip Balta
+          enchants:
+            DIG_SPEED: 3
+            DURABILITY: 3
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: Vip Göğüslük
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        - THORNS-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Vip Göğüslük
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+            THORNS: 2
+      '9':
+        Type: ITEM
+        Item Type: GOLD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 5
+        Enchantments: []
+        Lore: []
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: Vip Kask
+        Amount: 1
+        Enchantments:
+        - PROTECTION_ENVIRONMENTAL-4
+        - DURABILITY-3
+        - WATER_WORKER-1
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Vip Kask
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+            WATER_WORKER: 1
+      '13':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: Vip Kazma
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-4
+        - DURABILITY-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Vip Kazma
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 3
+      '14':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 3
+        Enchantments: []
+        Lore: []
+  SpawnerKasası:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: YELLOW
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5EXP 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5EXP 5 TL
+          internal: H4sIAAAAAAAAAH2PzW7CMBCEJw5EYIn+iHLnOTgWemyFaKUe0QaWYDWxwVnUhCfksXCSIm5dyRqPtft5VgMaD6+52/y8WTFSf1Gm8PxO1QeTT+v20XCJRGG84uPJeN4uc6rZr8hmjCcF/XmgXzt3JyvoaQxbuyChAZTZYlwYyxtPO5lVh3XqRHKGwij80XVywMVThX57w0uMqEKooPWfnhvtcJM7rnDpumwQ7G8pulC9Bm/sHY/LEI+tXTrhsBPlpQ7ISCPp9v4na4zkm022l2YgnCsuJVhwNAEAAA==
+          blockMaterial: MOB_SPAWNER
+      '2':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5GHAST 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5GHAST 5 TL
+          internal: H4sIAAAAAAAAAHWP3Q7BQBCFjy2NbuIvuPccLv1cEkHiUgaj3agt2xXqCT2WbUtcmWRy5kwmX85IQKI5ipP9aaqtstmaQoHOjB5zJrPLiqXiFL5Ad8nXmzJ8WMSUsVmSDhltAbm60F2Pk5u2qEoEhZ2QpTqEOqB1Vpr3ho52GEaUWgg0HL+8YofyBgK1YkLPQ+UBV06zjz5zLVH9H+qc7LZpjmDzTVAGquZ4pX94vAK0CrtILLt/KE6lQ1Yk/PLnPzk9+BtWYWTzY9dvHqsXLSwBAAA=
+          blockMaterial: MOB_SPAWNER
+      '3':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5BLAZE 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5BLAZE 5 TL
+          internal: H4sIAAAAAAAAAHWP3Q7BQBCFjy0Nm/gL7j2HSz+XRJC4lGmN2qgt2xXqCT2WbUtcmWRy5kwmX85IQKI1jpPwNNNW2WxDkUB3To8FkwmyYqk4hS/QW/H1pgzvlzFlbFakI0ZHQK4vdNeT5KYtqhKNwk7JUh1C7dE+K82hoYMdBTE9GQJNxy+v2KG8oUCtmND3UHnAldPso89cS9TghzonwS7NEWy+CcpA1Ryv9A+PVwPtwi4Ty+4filPpkBUJv/z5T04P/pZVdLT5ses3CWCfeywBAAA=
+          blockMaterial: MOB_SPAWNER
+      '4':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5ENDERMAN 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5ENDERMAN 5 TL
+          internal: H4sIAAAAAAAAAHWP3U7DMAyFz9JR0Uj8b/c8B5f8XIKqgrRL5LZeF9EmkKai4Ql5rKXp0K6wZB3bsj4fS0Di/L411ceTdsr5N2oErp5pfGGypY9DxT1SgZuCvwZluc5b8mwL0g3jUkC+ftK3fjCDdlhKZLF9JEenEKrGdac0V5a27o51zbYjDYGzcGJe5EBLbgVOYoVVgsWIEEH9QX8mnWnrI60z5Xs/Idj+mZg9LSe80kc8fjNcxDY3jsNL1PYyIBcS6fz2/1YTpBtWzc5N+yH3C9878jIBAAA=
+          blockMaterial: MOB_SPAWNER
+      '5':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5ÖRÜMCEK 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5ÖRÜMCEK 5 TL
+          internal: H4sIAAAAAAAAAHWP3Q7BQBCFjy0Nm/gL7j2HSz+XRJC4lKmO2qgt2xXqCT2WbUtcmWRyZiaTb85IQKI1jpP9aaatstmGIoHunB4LJhNkxVBxCl+gt+LrTRkOlzFlbFakI0ZHQK4vdNeT5KYtqhKNop2SpTqECtE5K817Qwc7Si8qZAOBpjtQrrFjeUOBWlGh76HygAun2UefuZaswY91ToJdmiPYfC2Ujqo5XukfHq8G2kW7TCy7hyhOpUNWJPzy6X9GPfhbVtHR5tsu35d10kkuAQAA
+          blockMaterial: MOB_SPAWNER
+      '6':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5SLİME 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5SLİME 5 TL
+          internal: H4sIAAAAAAAAAHWP3Q7BQBCFjy0Nm/gL7j2HSz+XRJC4lMGojXbLdhvqCT2WbUtcmWRy5kwmX85IQKI1DuPDZaatstmGAoHunB4LJrPPiqXiBL5Ab8W3VBk+LkPK2KxIB4yOgFxf6a4ncaotqhKNwk7JUh1CHdGOlOaDoZMdJaGKGAJNxy+v2KG8oUCtmND3UHnAldPso89cS9Tgh4ri/S7JEWy+CcpA1Ryv9A+PVwPtwi5jy+4fChPpkBUJv/z5T04P/pZVcLb5ses3iYzweiwBAAA=
+          blockMaterial: MOB_SPAWNER
+      '7':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5İSKELET 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5İSKELET 5 TL
+          internal: H4sIAAAAAAAAAHWPTW7CQAyFH5MQwUiF0sKec3TZnyUIBSSWyAETRoQZmEwE6Ql7LCYJVVZYsp5tWZ+fJSAx+MzM9vijnXLlilKB0YxucyablPVQcY5I4D3mS6Es7xYZlWxj0injVUAuz3TVX6bQDqFEv26/yVEPQu3wdlKat5b27iM/csbOaAi8+BPNIntaMBXo1hXGATo3+PBaPvS30oY2aWknk2zyCsH230TjKazwSrd4/PUxrNuFcexfoiyXHtmRiJq3n1sNEK1ZpQdX7fu8A+kvci4yAQAA
+          blockMaterial: MOB_SPAWNER
+      '8':
+        Type: ITEM
+        Item Type: MOB_SPAWNER
+        Item Data: 0
+        Name: '&r&5GOLEM 5 TL'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §r§5GOLEM 5 TL
+          internal: H4sIAAAAAAAAAIWPzW7CMBCEBwcisMRP1SJx7HP0yM+xFaKVOKINLK5VxwbHtIQn5LHqJFQcu5I1Hmv386wEJAZT47ZfCxt0KD9ICTy80vmNyWdl/ai5QCrwuOLjSXveLQ2V7FdkFWMkIN8P9GNn7mQD2hK92s4pUBdC7zDJteWtp314+dbGkGK/Uc5wDoF+/Khp58hMngU69Q1PCVpnxIpa3vRSacMc35m5yzZFhWD/F6VJ1q7w2t7xuPYwrO3SBY6LkSlkRLYk0mb5/wInSNes1WeopuL5BbhzuOM+AQAA
+          blockMaterial: MOB_SPAWNER

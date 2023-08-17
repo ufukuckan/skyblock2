@@ -1,0 +1,18 @@
+# BurkeyShop 0.1.0
+# Created by CJ Burkey
+
+guiNextButton: ARROW
+guiBackButton: BARRIER
+langChatPrefix: '&6[MARKET]&r'
+langNotEnoughMoney: '&4&lBu işlemi gerçekleştirmek için yeterli paraya sahip değilsin.'
+langNotEnoughItems: '&4&lBu işlemi gerçekleştirmek için yeterli eşyaya sahip değilsin.'
+langShopOpen: '&a&lMarket açıldı.'
+langNoPerm: '&4&lBu komutu kullanmak için yetkin yok.'
+langReloaded: '&2&lMarket yenilendi!'
+langGuiName: '&2&lMARKET'
+langNextPage: '&2&lSonraki Sayfa'
+langBackPage: '&4&lÖnceki Sayfa'
+langAddedItem: '&2&lMarkete eşya eklendi.'
+langRemovedItem: '&2&lMarketten eşya silindi.'
+langNoHand: '&4&lElinizde eşya yok.'
+langNoRem: '&4&lMarketten eşya silinemedi.'

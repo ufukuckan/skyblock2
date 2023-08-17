@@ -1,0 +1,6 @@
+worlds:
+  World:
+    spawnpoint: world:0.5951839703042212:102.0:0.5624931082809742:-1.8535239:53.699802
+    y-void: 0.0
+    enabled: true
+    keep-inventory: true

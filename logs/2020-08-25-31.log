@@ -1,0 +1,1011 @@
+[16:21:02] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:21:02] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[16:21:02] [Server thread/INFO]: Loading properties
+[16:21:02] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Ýþleyici geçersiz
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:87) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+[16:21:02] [Server thread/INFO]: Default game type: SURVIVAL
+[16:21:02] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:21:02] [Server thread/INFO]: Debug logging is disabled
+[16:21:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:21:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:21:03] [Server thread/INFO]: Generating keypair
+[16:21:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:21:03] [Server thread/INFO]: Using default channel type
+[16:21:03] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:21:04] [Server thread/INFO]: [AntiCrash] Loading AntiCrash v1.7
+[16:21:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[16:21:04] [Server thread/INFO]: [VoidTeleport] Loading VoidTeleport v2.3.5
+[16:21:04] [Server thread/INFO]: [TLGNDCommands] Loading TLGNDCommands v1.0
+[16:21:04] [Server thread/INFO]: [LatinSBoard] Loading LatinSBoard v1.1
+[16:21:04] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.6 (Phoenix)
+[16:21:04] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[16:21:04] [Server thread/INFO]: [Announcer] Loading Announcer v1.7
+[16:21:04] [Server thread/INFO]: [Horizon] Loading Horizon v1.4.6-Hotfix#8
+[16:21:04] [Server thread/INFO]: [Spawn] Loading Spawn v1.0
+[16:21:04] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[16:21:04] [Server thread/INFO]: [DeathMessagesPrime] Loading DeathMessagesPrime v1.16.4
+[16:21:04] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.3
+[16:21:04] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.1.0
+[16:21:04] [Server thread/INFO]: [ViaVersion] ViaVersion 3.1.0 is now loaded, injecting!
+[16:21:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 mappings...
+[16:21:04] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[16:21:04] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 mappings...
+[16:21:04] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[16:21:04] [Server thread/INFO]: [MotdManager-Reloaded] Loading MotdManager-Reloaded v1.44
+[16:21:04] [Server thread/INFO]: [CommandItems] Loading CommandItems v2.2.1
+[16:21:04] [Server thread/INFO]: [SmoothTimber] Loading SmoothTimber v1.8.3
+[16:21:04] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:21:04] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.9.3-1.12 (build 21)
+[16:21:04] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.0.0
+[16:21:04] [Server thread/INFO]: [BurkeyShop] Loading BurkeyShop v0.1.0
+[16:21:04] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v6.4.0
+[16:21:04] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
+[16:21:04] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.1 -> 1.16.2 mappings...
+[16:21:09] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:21:09] [Server thread/INFO]: Loading properties
+[16:21:09] [Server thread/INFO]: Default game type: SURVIVAL
+[16:21:09] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:21:09] [Server thread/INFO]: Debug logging is disabled
+[16:21:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:21:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:21:12] [Server thread/INFO]: Generating keypair
+[16:21:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:21:13] [Server thread/INFO]: Using default channel type
+[16:21:14] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[16:21:14] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[16:21:14] [Server thread/WARN]: Perhaps a server is already running on that port?
+[16:21:14] [Server thread/INFO]: Stopping server
+[16:21:14] [Server thread/INFO]: Saving players
+.5.2
+[16:21:05] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:21:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:21:05] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[16:21:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:21:05] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[16:21:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:21:05] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[16:21:05] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[16:21:05] [Server thread/INFO]: [ASkyBlock] Enabling ASkyBlock v3.0.9.4
+[16:21:07] [Server thread/INFO]: [ASkyBlock] Loading entity limits
+[16:21:07] [Server thread/INFO]: [ASkyBlock] HOPPER will be limited to 30
+[16:21:08] [Server thread/INFO]: [ASkyBlock] Loaded default island schematic.
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_HORSE_ARMOR] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_HORSE_ARMOR
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [DÝAMOND_HORSE_ARMOR] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.DÝAMOND_HORSE_ARMOR
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [GOLD_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.GOLD_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:SKELETON is unknown for this server. Skipping.
+[16:21:08] [Server thread/ERROR]: Could not parse item [GOLD_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.GOLD_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:WÝTHER_SKELETON is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:GHAST is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:BLAZE is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:MAGMA_CUBE is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:MAGMA_CUBE is unknown for this server. Skipping.
+[16:21:08] [Server thread/ERROR]: Could not parse item [OBSÝDÝAN] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.OBSÝDÝAN
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [DÝAMOND] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.DÝAMOND
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [FLÝNT_AND_STEEL] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.FLÝNT_AND_STEEL
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:BLAZE is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:SKELETON is unknown for this server. Skipping.
+[16:21:08] [Server thread/ERROR]: Could not parse item [DÝAMOND_HORSE_ARMOR] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.DÝAMOND_HORSE_ARMOR
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:204)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/INFO]: [ASkyBlock] Loaded default nether schematic.
+[16:21:08] [Server thread/INFO]: [ASkyBlock] Loading schematic The Original (island.schematic) for all players, order 1
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_HORSE_ARMOR] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_HORSE_ARMOR
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [DÝAMOND_HORSE_ARMOR] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.DÝAMOND_HORSE_ARMOR
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [GOLD_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.GOLD_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:SKELETON is unknown for this server. Skipping.
+[16:21:08] [Server thread/ERROR]: Could not parse item [GOLD_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.GOLD_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:WÝTHER_SKELETON is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:GHAST is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:BLAZE is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:MAGMA_CUBE is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:MAGMA_CUBE is unknown for this server. Skipping.
+[16:21:08] [Server thread/ERROR]: Could not parse item [OBSÝDÝAN] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.OBSÝDÝAN
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [DÝAMOND] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.DÝAMOND
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [FLÝNT_AND_STEEL] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.FLÝNT_AND_STEEL
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:BLAZE is unknown for this server. Skipping.
+[16:21:08] [Server thread/WARN]: Spawner setting of MÝNECRAFT:SKELETON is unknown for this server. Skipping.
+[16:21:08] [Server thread/ERROR]: Could not parse item [DÝAMOND_HORSE_ARMOR] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.DÝAMOND_HORSE_ARMOR
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [ÝRON_ÝNGOT] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.ÝRON_ÝNGOT
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/INFO]: [ASkyBlock] Loading schematic NetherBlock Island (nether.schematic) for all players, order 0
+[16:21:08] [Server thread/ERROR]: Could not parse item [COOKED_CHÝCKEN] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.COOKED_CHÝCKEN
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/INFO]: [ASkyBlock] Loading schematic Island Duo (double.schematic) for all players, order 2
+[16:21:08] [Server thread/ERROR]: Could not parse item [DÝAMOND] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.DÝAMOND
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/ERROR]: Could not parse item [PUMPKÝN_SEEDS] in schematic - skipping!
+[16:21:08] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.PUMPKÝN_SEEDS
+[16:21:08] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.IslandBlock.setChest(IslandBlock.java:499)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.prePasteSchematic(Schematic.java:1199)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.schematics.Schematic.<init>(Schematic.java:645)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.loadSchematics(IslandCmd.java:260)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.commands.IslandCmd.<init>(IslandCmd.java:134)
+[16:21:08] [Server thread/WARN]: 	at com.wasteofplastic.askyblock.ASkyBlock.onEnable(ASkyBlock.java:358)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[16:21:08] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
+[16:21:08] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[16:21:08] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:21:08] [Server thread/INFO]: [ASkyBlock] Loading schematic Black Diamonds (harder.schematic) for all players, order 3
+[16:21:08] [Server thread/INFO]: [ASkyBlock] Loading offline messages...
+[16:21:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:21:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:21:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:21:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:21:08] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:21:08] [Server thread/INFO]: Preparing level "world"
+[16:21:08] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:21:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:08] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:08] [Server thread/INFO]: View Distance: 10
+[16:21:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:08] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:08] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:21:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:21:08] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:08] [Server thread/INFO]: Structure Info Saving: true
+[16:21:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:21:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:21:09] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:21:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:09] [Server thread/INFO]: View Distance: 10
+[16:21:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:09] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:09] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:21:09] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:09] [Server thread/INFO]: Structure Info Saving: true
+[16:21:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:21:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:21:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:21:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:09] [Server thread/INFO]: View Distance: 10
+[16:21:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:09] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:09] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:21:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:21:09] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:09] [Server thread/INFO]: Structure Info Saving: true
+[16:21:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:21:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:21:09] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4960215589117560511)
+[16:21:10] [Server thread/INFO]: Preparing spawn area: 9%
+[16:21:11] [Server thread/INFO]: Preparing spawn area: 49%
+[16:21:12] [Server thread/INFO]: Preparing spawn area: 90%
+[16:21:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: -128027104474547382)
+[16:21:13] [Server thread/INFO]: Preparing spawn area: 29%
+[16:21:14] [Server thread/INFO]: Preparing spawn area: 64%
+[16:21:15] [Server thread/INFO]: Preparing start region for level 2 (Seed: -128027104474547382)
+[16:21:16] [Server thread/INFO]: [AntiCrash] Enabling AntiCrash v1.7
+[16:21:16] [Server thread/INFO]: ----------------------------
+[16:21:16] [Server thread/INFO]: AntiCrash by CrispyBow
+[16:21:16] [Server thread/INFO]: Skype crispybow31
+[16:21:16] [Server thread/INFO]: ----------------------------
+[16:21:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[16:21:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:21:16] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[16:21:16] [Server thread/INFO]: [VoidTeleport] Enabling VoidTeleport v2.3.5
+[16:21:16] [Server thread/INFO]: [VoidTeleport] Developed by EndlessGames.
+[16:21:17] [Server thread/INFO]: 
+
+                ===================================================
+                                    VoidTeleport
+                ===================================================
+
+                              Current version: 2.3.5
+                        You are running the latest version!
+
+                ===================================================
+
+[16:21:17] [Server thread/INFO]: [TLGNDCommands] Enabling TLGNDCommands v1.0
+[16:21:17] [Server thread/INFO]: =============== [ TLGNDCommands v1.0 ] ===============
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]: Plugin is being activated...
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]: Config file is being loaded...
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]: Commands are being ready...
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]: TLGNDCommands is ready to use!
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]:  
+[16:21:17] [Server thread/INFO]: =============== [ TLGNDCommands v1.0 ] ===============
+[16:21:17] [Server thread/INFO]: [LatinSBoard] Enabling LatinSBoard v1.1
+[16:21:17] [Server thread/INFO]: [LatinSBoard] Plugin actived
+[16:21:17] [Server thread/INFO]: [LatinSBoard] Loading config scoreboard.yml
+[16:21:17] [Server thread/INFO]: [LatinSBoard] Loading config messages.yml
+[16:21:17] [Server thread/INFO]: [LatinSBoard] Vault Hooked version: 1.7.3-b131
+[16:21:17] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.6 (Phoenix)
+[16:21:17] [Server thread/INFO]: [GroupManager] World Found: world
+[16:21:17] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[16:21:17] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[16:21:17] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[16:21:17] [Server thread/INFO]: [GroupManager] version 2.6 (Phoenix) is enabled!
+[16:21:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:21:17] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[16:21:17] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[16:21:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[16:21:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:21:17] [Server thread/INFO]: [Announcer] Enabling Announcer v1.7
+[16:21:17] [Thread-10/WARN]: [Announcer] Could not reach BukkitDev file stream for update checking. Is dev.bukkit.org offline?
+[16:21:17] [Server thread/INFO]: Announcer v1.7 is enabled!
+
+[16:21:17] [Server thread/INFO]: [Horizon] Enabling Horizon v1.4.6-Hotfix#8
+[16:21:17] [Server thread/INFO]: (H-INFO) | Checking server version...
+[16:21:17] [Server thread/INFO]: (H-INFO) | Found server version: v1_12_R1
+[16:21:17] [Server thread/INFO]: (H-INFO) | Loading configuration files...
+[16:21:17] [Server thread/INFO]: (H-INFO) | Registering commands...
+[16:21:17] [Server thread/INFO]: (H-INFO) | Enabling utilities...
+[16:21:17] [Server thread/INFO]: (H-INFO) | Enabling checks...
+[16:21:17] [Server thread/INFO]: (H-WARN) | Failed to enable the check BOWAIMBOT! Please try to update the config.
+[16:21:17] [Server thread/INFO]: (H-WARN) | Failed to enable the check TIMER! Please try to update the config.
+[16:21:17] [Server thread/INFO]: (H-WARN) | Failed to enable the check LIQUIDWALK! Please try to update the config.
+[16:21:17] [Server thread/INFO]: (H-WARN) | Failed to enable the check KILLAURA! Please try to update the config.
+[16:21:17] [Server thread/INFO]: (H-WARN) | Failed to enable the check VELOCITY! Please try to update the config.
+[16:21:17] [Server thread/INFO]: (H-INFO) | Horizon(1.4.6-Hotfix#8) is now fully loaded.
+[16:21:17] [Server thread/INFO]: (H-INFO) | Full startup took 0.089 second(s)
+[16:21:17] [Server thread/INFO]: (H-INFO) | Thanks for using Horizon :)
+[16:21:17] [Server thread/INFO]: (H-INFO) | If you think Horizon is good, don't forget to leave a good review!
+[16:21:17] [Server thread/INFO]: [Spawn] Enabling Spawn v1.0
+[16:21:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[16:21:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:21:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:21:17] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:21:18] [Server thread/INFO]: [DeathMessagesPrime] Enabling DeathMessagesPrime v1.16.4
+[16:21:18] [Server thread/INFO]: [DeathMessagesPrime] Minecraft version is 1.12.2
+[16:21:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.3
+[16:21:18] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
+[16:21:18] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
+[16:21:18] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_12_R1, using UniversalSkinFactory.
+[16:21:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.1.0
+[16:21:21] [Server thread/INFO]: [MotdManager-Reloaded] Enabling MotdManager-Reloaded v1.44
+[16:21:21] [Server thread/WARN]: [MotdManager Reloaded] Can't find \config.yml in plugin Jar file
+[16:21:21] [Server thread/INFO]: [MotdManager Reloaded] config.yml is not found! Created default config.yml!
+[16:21:21] [Server thread/INFO]: [MotdManager-Reloaded] version 1.44 is enabled!
+[16:21:21] [Server thread/INFO]: [CommandItems] Enabling CommandItems v2.2.1
+[16:21:21] [Server thread/ERROR]: Error occurred while enabling CommandItems v2.2.1 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.enchantments.EnchantmentWrapper.<init>(Ljava/lang/String;)V
+	at me.yamakaja.commanditems.util.EnchantmentGlow.<init>(EnchantmentGlow.java:15) ~[?:?]
+	at me.yamakaja.commanditems.util.EnchantmentGlow.getGlow(EnchantmentGlow.java:32) ~[?:?]
+	at me.yamakaja.commanditems.parser.ItemStackDeserializer.deserialize(ItemStackDeserializer.java:92) ~[?:?]
+	at me.yamakaja.commanditems.parser.ItemStackDeserializer.deserialize(ItemStackDeserializer.java:22) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:136) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:287) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringKeyMap(MapDeserializer.java:527) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:364) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:29) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:136) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:287) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4001) ~[?:?]
+	at me.yamakaja.commanditems.lib.com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2890) ~[?:?]
+	at me.yamakaja.commanditems.parser.ConfigManager.parse(ConfigManager.java:36) ~[?:?]
+	at me.yamakaja.commanditems.CommandItems.onEnable(CommandItems.java:35) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+[16:21:21] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.8.3
+[16:21:21] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.12.2 (Core v1_11x)
+[16:21:21] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.9.3-1.12 (build 21)
+[16:21:21] [Server thread/INFO]: [ChestShop] Vault loaded! Found an economy plugin!
+[16:21:21] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.0.0
+[16:21:21] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:21:21] [Server thread/INFO]: No kits found to migrate.
+[16:21:21] [Server thread/INFO]: Loaded 852 items from items.csv.
+[16:21:21] [Server thread/INFO]: Using locale tr
+[16:21:21] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:21:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:21:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:21:21] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[16:21:21] [Server thread/INFO]: [BurkeyShop] Enabling BurkeyShop v0.1.0
+[16:21:21] [Server thread/INFO]: [BurkeyShop] Vault found!  Starting BurkeyShop.
+[16:21:22] [Server thread/INFO]: [BurkeyShop] Reloaded shop in 4393300 nanoseconds.
+[16:21:22] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v6.4.0
+[16:21:22] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
+[16:21:22] [Server thread/INFO]: [SilkSpawners] Loading support for v1_12_R1
+[16:21:22] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled.
+[16:21:22] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[16:21:22] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[16:21:22] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.24-SNAPSHOT (build 1605)
+[16:21:22] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[16:21:23] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.18.0.0
+[16:21:23] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[16:21:23] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[16:21:23] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.18.0.0
+[16:21:23] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:21:23] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.18.0.0
+[16:21:23] [Server thread/INFO]: [EssentialsAntiBuild] Starting Metrics. Opt-out using the global bStats config.
+[16:21:23] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.0.0
+[16:21:23] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:21:23] [Server thread/INFO]: [CustomCobbleGen] Enabling CustomCobbleGen v1.4.3
+[16:21:23] [Server thread/INFO]: [CustomCobbleGen]: Log - IF YOU ENCOUNTER ANY BUGS OR ERRORS PLEASE REPORT THEM ON SPIGOT!
+[16:21:23] [Server thread/INFO]: [CustomCobbleGen]: Log - Special thanks to lelesape (Idea), AddstarMC (Contribution on GitHub) and Fang_Zhijian (Chinese translation)
+[16:21:23] [Server thread/INFO]: [CustomCobbleGen]: Log - IF YOU WANT TO SUPPORT US JOIN OUR PATERON: https://www.patreon.com/woollydevelopment
+[16:21:23] [Server thread/INFO]: [CustomCobbleGen]: User error - generationSound is not a valid generation mode id. MOST BE A NUMBER
+[16:21:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: customcobblegen
+[16:21:23] [Server thread/INFO]: [CustomCobbleGen]: Log - CustomCobbleGen is now enabled ?
+[16:21:23] [Server thread/INFO]: [SimpleRename] Enabling SimpleRename v13.8
+[16:21:23] [Server thread/INFO]: SimpleRename enabled!
+[16:21:23] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta1-b2226
+[16:21:23] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[16:21:23] [Server thread/INFO]: [AuthMe] Hooked into Vault!
+[16:21:23] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[16:21:23] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[16:21:23] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.4
+[16:21:23] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[16:21:23] [Server thread/INFO]: [SkyBlockHoloStats] Enabling SkyBlockHoloStats v1.4.2
+[16:21:23] [Server thread/INFO]: [SkyBlockHoloStats] Hooked into ASkyBlock!
+[16:21:23] [Server thread/INFO]: [CratesPlus] Enabling CratesPlus v4.5.2
+[16:21:24] [Server thread/INFO]: CratesPlus Version 4.5.2
+[16:21:24] [Server thread/INFO]: HolographicDisplays was found, hooking in!
+[16:21:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:21:24] [Server thread/INFO]: Done (16,172s)! For help, type "help" or "?"
+[16:21:24] [Server thread/INFO]: -------- World Settings For [ASkyBlock] --------
+[16:21:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:24] [Server thread/INFO]: View Distance: 10
+[16:21:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:24] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:24] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:21:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:21:24] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:24] [Server thread/INFO]: Structure Info Saving: true
+[16:21:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:21:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:21:25] [Server thread/INFO]: Preparing start region for level 3 (Seed: 7162624841269517015)
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock) TNT ignition is PERMITTED.
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock) Lighters are PERMITTED.
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock) Lava fire is blocked.
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock) Fire spread is UNRESTRICTED.
+[16:21:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ASkyBlock'
+[16:21:25] [Server thread/INFO]: Creating ASkyBlock's Nether...
+[16:21:25] [Server thread/INFO]: -------- World Settings For [ASkyBlock_nether] --------
+[16:21:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:25] [Server thread/INFO]: View Distance: 10
+[16:21:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:25] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:25] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:21:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:21:25] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:25] [Server thread/INFO]: Structure Info Saving: true
+[16:21:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:21:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:21:25] [Server thread/INFO]: Preparing start region for level 4 (Seed: 3130019547027931503)
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) TNT ignition is PERMITTED.
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) Lighters are PERMITTED.
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) Lava fire is blocked.
+[16:21:25] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) Fire spread is UNRESTRICTED.
+[16:21:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ASkyBlock_nether'
+[16:21:25] [Server thread/INFO]: [ASkyBlock] Silencing command feedback for Ops...
+[16:21:25] [Server thread/INFO]: Game rule sendCommandFeedback has been updated to false
+[16:21:25] [Server thread/INFO]: [ASkyBlock] If you do not want this, do /gamerule sendCommandFeedback true
+[16:21:25] [Server thread/INFO]: [ASkyBlock] Checking for new updates...
+[16:21:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[16:21:25] [Craft Scheduler Thread - 12/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[16:21:25] [Craft Scheduler Thread - 12/WARN]: [AuthMe] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[16:21:25] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[16:21:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:21:26] [Craft Scheduler Thread - 3/INFO]: (H-INFO) | You're using the latest version!
+[16:21:26] [Server thread/INFO]: [Citizens] Loaded 5 NPCs.
+[16:21:26] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[16:21:26] [Server thread/INFO]: [ASkyBlock] Loading island grid...
+[16:21:26] [Server thread/INFO]: [ASkyBlock] Loading islands.yml
+[16:21:26] [Server thread/INFO]: [ASkyBlock] Loading warps...
+[16:21:26] [Server thread/INFO]: [ASkyBlock] Loading warp panel...
+[16:21:26] [Server thread/INFO]: [ASkyBlock] Loading Top Ten
+[16:21:26] [Server thread/INFO]: [ASkyBlock] All files loaded. Ready to play...
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     +===============+
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     Current version: 13.8.3
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer]     This is the latest version!
+[16:21:26] [Craft Scheduler Thread - 0/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:21:26] [Server thread/INFO]: [ASkyBlock] Metrics loaded.
+[16:21:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: askyblock
+[16:21:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[16:21:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: objective
+[16:21:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[16:21:26] [Craft Scheduler Thread - 11/WARN]: [GroupManager] Stable Version: v2.7 for Minecraft 1.9 to 1.16+ is out! You are still running version: 2.6 (Phoenix)
+[16:21:26] [Craft Scheduler Thread - 11/WARN]: [GroupManager] Update at: https://www.spigotmc.org/resources/groupmanager.80743/
+[16:21:26] [Server thread/INFO]: 4 placeholder hooks successfully registered!
+[16:21:26] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[16:21:26] [Craft Scheduler Thread - 3/INFO]: Checking for updates via Spigot...
+[16:21:26] [Craft Scheduler Thread - 3/INFO]: [KASA] No update was found, you are running the latest version. Will check again later.
+[16:21:26] [Server thread/INFO]: [ASkyBlock] No update available.
+[16:22:06] [User Authenticator #1/INFO]: UUID of player bryat2222 is 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+[16:22:07] [Server thread/INFO]: bryat2222[/127.0.0.1:60449] logged in with entity id 86 at ([world]0.44937770306201846, 102.0, 0.3776707050244299)
+[16:22:10] [Server thread/INFO]: login
+[16:22:10] [Craft Scheduler Thread - 5/INFO]: [AuthMe] The user bryat2222 has 3 accounts:
+[16:22:10] [Craft Scheduler Thread - 5/INFO]: [AuthMe] §7bryat22222, bryat222222, §abryat2222§7.
+[16:22:10] [Craft Scheduler Thread - 5/INFO]: [AuthMe] bryat2222 logged in!
+[16:22:19] [Server thread/INFO]: bryat2222 issued server command: /help motd
+[16:22:19] [Server thread/INFO]: help
+[16:22:25] [Server thread/INFO]: bryat2222 issued server command: /motd
+[16:22:25] [Server thread/INFO]: motd
+[16:23:41] [Server thread/INFO]: bryat2222 issued server command: /motd add &emade by &lc Burak The Creator
+[16:23:41] [Server thread/INFO]: motd
+[16:23:50] [Server thread/INFO]: bryat2222 issued server command: /motd add &emade by &l&c Burak The Creator
+[16:23:50] [Server thread/INFO]: motd
+[16:23:54] [Server thread/INFO]: bryat2222 lost connection: Disconnected
+[16:23:54] [Server thread/INFO]: bryat2222 left the game
+[16:24:02] [User Authenticator #2/INFO]: UUID of player bryat2222 is 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+[16:24:03] [Server thread/INFO]: bryat2222[/127.0.0.1:60501] logged in with entity id 96 at ([world]0.44937770306201846, 102.0, 0.3776707050244299)
+[16:24:06] [Server thread/INFO]: login
+[16:24:06] [Craft Scheduler Thread - 8/INFO]: [AuthMe] The user bryat2222 has 3 accounts:
+[16:24:06] [Craft Scheduler Thread - 8/INFO]: [AuthMe] §7bryat22222, bryat222222, §abryat2222§7.
+[16:24:06] [Craft Scheduler Thread - 8/INFO]: [AuthMe] bryat2222 logged in!
+[16:27:27] [Async Chat Thread - #0/INFO]: [SBVIP]bryat2222 ,
+[16:27:29] [Server thread/INFO]: bryat2222 issued server command: /motd add &e&lSky&b&lBlock &made by &l&0 burak the Creator
+[16:27:29] [Server thread/INFO]: motd
+[16:27:40] [Server thread/INFO]: bryat2222 issued server command: /motd add &e&lSky&b&lBlock &bmade by &l&0 burak the Creator
+[16:27:40] [Server thread/INFO]: motd
+[16:27:56] [Server thread/INFO]: bryat2222 issued server command: /motd add &e&lSky&b&lBlock &amade by &l&0 burak the Creator
+[16:27:56] [Server thread/INFO]: motd
+[16:28:04] [Server thread/INFO]: bryat2222 lost connection: Disconnected
+[16:28:04] [Server thread/INFO]: bryat2222 left the game
+[16:28:09] [User Authenticator #3/INFO]: UUID of player bryat2222 is 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+[16:28:09] [Server thread/INFO]: bryat2222[/127.0.0.1:60578] logged in with entity id 113 at ([world]0.44937770306201846, 102.0, 0.3776707050244299)
+[16:28:13] [Server thread/INFO]: login
+[16:28:13] [Craft Scheduler Thread - 21/INFO]: [AuthMe] The user bryat2222 has 3 accounts:
+[16:28:13] [Craft Scheduler Thread - 21/INFO]: [AuthMe] §7bryat22222, bryat222222, §abryat2222§7.
+[16:28:13] [Craft Scheduler Thread - 21/INFO]: [AuthMe] bryat2222 logged in!
+[16:28:27] [Server thread/INFO]: bryat2222 issued server command: /motd add %empty% &e&lSky&b&lBlock &cmade by &l&0 burak the Creator
+[16:28:27] [Server thread/INFO]: motd
+[16:28:45] [Server thread/INFO]: bryat2222 issued server command: /motd add &e&lSky&b&lBlock &cmade by &l&6 burak the Creator
+[16:28:45] [Server thread/INFO]: motd
+[16:28:48] [Server thread/INFO]: bryat2222 lost connection: Disconnected
+[16:28:48] [Server thread/INFO]: bryat2222 left the game
+[16:29:07] [User Authenticator #4/INFO]: UUID of player bryat2222 is 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+[16:29:07] [Server thread/INFO]: bryat2222[/127.0.0.1:60639] logged in with entity id 122 at ([world]0.44937770306201846, 102.0, 0.3776707050244299)
+[16:29:11] [Server thread/INFO]: login
+[16:29:13] [Server thread/INFO]: login
+[16:29:20] [Craft Scheduler Thread - 14/INFO]: [AuthMe] The user bryat2222 has 3 accounts:
+[16:29:20] [Craft Scheduler Thread - 22/INFO]: [AuthMe] The user bryat2222 has 3 accounts:
+[16:29:20] [Craft Scheduler Thread - 14/INFO]: [AuthMe] §7bryat22222, bryat222222, §abryat2222§7.
+[16:29:20] [Craft Scheduler Thread - 22/INFO]: [AuthMe] §7bryat22222, bryat222222, §abryat2222§7.
+[16:29:20] [Craft Scheduler Thread - 22/INFO]: [AuthMe] bryat2222 logged in!
+[16:29:20] [Craft Scheduler Thread - 14/INFO]: [AuthMe] bryat2222 logged in!
+[16:29:25] [Server thread/INFO]: login
+[16:29:29] [Server thread/INFO]: bryat2222 lost connection: Disconnected
+[16:29:29] [Server thread/INFO]: bryat2222 left the game
+[16:29:58] [User Authenticator #5/INFO]: UUID of player bryat2222 is 4d8a0dde-9539-3146-aa93-eeaf879da3c9
+[16:29:58] [Server thread/INFO]: bryat2222[/127.0.0.1:60668] logged in with entity id 123 at ([world]0.44937770306201846, 102.0, 0.3776707050244299)
+[16:30:02] [Server thread/INFO]: bryat2222 lost connection: Disconnected
+[16:30:02] [Server thread/INFO]: bryat2222 left the game

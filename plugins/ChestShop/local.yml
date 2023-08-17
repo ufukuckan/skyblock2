@@ -1,0 +1,103 @@
+prefix: "&a[ÖZEL MARKET] &r"
+iteminfo: "&aEşya bilgisi: &r"
+
+ACCESS_DENIED: "Bunu yapmaya yetkin yok!"
+
+NOT_ENOUGH_MONEY: "Yeterli paran yok!"
+NOT_ENOUGH_MONEY_SHOP: "Dükkan sahibinin yeterli parası yok!"
+
+CLIENT_DEPOSIT_FAILED: "Hesabınıza para aktarımı başarısız oldu!"
+SHOP_DEPOSIT_FAILED: "Dükkan sahibine para aktarımı başarısız oldu!"
+NO_ECONOMY_ACCOUNT: "Dükkan sahibinin para hesabı yok!"
+
+NO_BUYING_HERE: "Burda satın alamazsın!"
+NO_SELLING_HERE: "Burda satamazsın!"
+
+NOT_ENOUGH_SPACE_IN_INVENTORY: "Envanterinde yer yok!"
+NOT_ENOUGH_SPACE_IN_CHEST: "Sandıkta boş yer yok!"
+NOT_ENOUGH_ITEMS_TO_SELL: "Satacak yeterli eşyanız yok!"
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: " &r%world/%x/%y/%z&7 içindeki pazardaki %price %item&7  eşya dolu! (%satıcı satmaya çalıştı)"
+
+NOT_ENOUGH_STOCK: "Dükkandaki eşyalar bitmiş."
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: "&r%world/%x/%y/%z&7 içindeki pazardaki %price %item&7  eşya dolu! (%alıcı almaya çalıştı)"
+
+YOU_BOUGHT_FROM_SHOP: "%owner satıcısından %price karşılığında %item aldınız."
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: "%buyer %price ücretindeki %item eşyayı satın aldı."
+
+YOU_SOLD_TO_SHOP: "%item eşyasını %price ücretine %buyer alıcısına sattınız."
+SOMEBODY_SOLD_TO_YOUR_SHOP: "%seller satıcısı %price ücretine %item eşyasını senin dükkanına sattı."
+
+YOU_CANNOT_CREATE_SHOP: "Bu türde bir dükkan açamazsın!"
+NO_CHEST_DETECTED: "Sandık bulunamadı!"
+INVALID_SHOP_DETECTED: "Dükkan kullanılamaz!"
+INVALID_SHOP_PRICE: "Dükkan geçersiz bir para değerine sahip!"
+INVALID_SHOP_QUANTITY: "Dükkan geçersiz bir sayı değerine sahip!"
+CANNOT_ACCESS_THE_CHEST: "Bu sandığa ulaşmak için yeterli yetkiye sahip değilsiniz!"
+
+CLICK_TO_AUTOFILL_ITEM: "Bu mağazanın bulunduğu ürünün işaretini tıklayın!"
+NO_ITEM_IN_HAND: "Doldurmak içinde elinizde eşya yok!"
+
+PROTECTED_SHOP: "Dükkan başarıyla LWC ile korundu!"
+SHOP_CREATED: "Dükkan başarıyla oluşturuldu!"
+SHOP_FEE_PAID: "%amount kadar ücretlendirildiniz."
+SHOP_REFUNDED: "%amount kadar para iadesi yapıldı."
+ITEM_GIVEN: "%item eşyası %player oyuncusuna verildi."
+
+RESTRICTED_SIGN_CREATED: "Tabela başarıyla oluşturuldu!"
+
+PLAYER_NOT_FOUND: "Oyuncu bulunamadı!"
+NO_PERMISSION: "Bunu yapmak için yetkiniz yok!"
+INCORRECT_ITEM_ID: "Geçersiz bir eşya kodu girdiniz!"
+NOT_ENOUGH_PROTECTIONS: "Koruma yapılamadı!"
+
+CANNOT_CREATE_SHOP_HERE: "Burda dükkan açamazsınız!"
+
+TOGGLE_MESSAGES_OFF: "Dükkanlarınızdan daha fazla mesaj almayacaksınız(s)."
+TOGGLE_MESSAGES_ON: "Şimdi sadece kendi dükkanlarınızdan mesaj alacaksınız(s)."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

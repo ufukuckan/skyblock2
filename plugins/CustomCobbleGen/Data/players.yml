@@ -1,0 +1,32 @@
+# CustomCobbleGen! Version: 1.4.3 By Phil14052
+# IMPORTANT: ONLY EDIT THIS IF YOU KNOW WHAT YOU ARE DOING!!
+players:
+  4d8a0dde-9539-3146-aa93-eeaf879da3c9:
+    selected:
+      '0':
+        class: VİP
+        level: 2
+    purchased:
+      DEFAULT:
+      - 0
+      - 1
+      VİP:
+      - 0
+      - 1
+      - 2
+  018b9660-d18d-30d7-8790-290b12a26b67:
+    selected:
+      '0':
+        class: DEFAULT
+        level: 0
+    purchased:
+      DEFAULT:
+      - 0
+  94201c8a-1c80-3e11-85a9-b9425b1a9d47:
+    selected:
+      '0':
+        class: DEFAULT
+        level: 0
+    purchased:
+      DEFAULT:
+      - 0

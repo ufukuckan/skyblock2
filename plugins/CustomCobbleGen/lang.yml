@@ -1,0 +1,302 @@
+# CustomCobbleGen! Version: 1.4.3 By Phil14052
+prefix: '&8[&3CustomCobbleGen&8]'
+invalid-args: '&cInvalid args!'
+player-only: '&cÜzgünüm fakat bu sadece bir oyuncu tarafından yapılabilir!'
+player-offline: '&cBu oyuncu açık değil!'
+undifined-class: '&cBu sınıf tanımlı değil!'
+undifined-level: '&cBu seviye tanımlı değil!'
+no-tier-selected:
+  self: '&cSeviye seçmediniz'
+  other: '&c%player_name% henüz bir seviye seçmedi'
+show-tier:
+  self: '%selected_tier_class% sınıfından %selected_tier_level% seviyesini seçtiniz'
+  other: '%player_name% oyuncusu  %selected_tier_class% sınıfından %selected_tier_level%
+    seviyesini seçti'
+tier-change-success: '&a%player_name% oyuncusu %selected_tier_class% sınıfından %selected_tier_level%
+  seviyesine başarılı bir şekilde geçildi'
+no-permissions: '&cYBunu yapmak için yetkiye sahip değilsiniz!'
+reload-success: '&aPlugin %time% sürede yenilendi.'
+force-save-success: '&aBaşarılı bir şekilde oyuncu bilgileri korundu'
+player:
+  plugin-help:
+  - '&8&l&m---------------------'
+  - ' '
+  - '&3CustomCobbleGen - &8Yardım'
+  - '&3/%command%&8 - GUI açar'
+  - '&3/%command% help&8 - Yardım menüsünü açar'
+  - '&3/%command% tier&8 - Mevcut olan seviyeyi gösterir'
+  - '&3/%command% upgrade&8 - Üst seviyeye yükseltir'
+  - '&3/%command% admin&8 - Admin komutlarının listesini gösterir'
+  - '&8&l&m---------------------'
+gui:
+  prefix: '&3&lCustomCobbleGen menu'
+  main:
+    buy: '&aSatın almak için tıklayın'
+    can-not-afford: '&cYeterli bakiyeniz yok'
+    selected: '&aSeçili'
+    select: '&aSeçmek için tıklayın'
+  locked:
+    missing-permission: '&cKilitli-Yetkiniz yok'
+    prev-unowned: '&cKilitli-Lütfen önceki seviyeyi satın alınız'
+  price:
+    money:
+      afford: '&a$%tier_price_money%'
+      expensive: '&c$%tier_price_money%'
+    xp:
+      afford: '&a%tier_price_xp% exp seviyeleri'
+      expensive: '&c%tier_price_xp% exp seviyeleri'
+    level:
+      achieved: '&a%tier_price_level% seviye adaya sahip olmanız gerek'
+      not-achieved: '&ctier_price_level% seviye adaya sahip olmanız gerek'
+    items:
+      top:
+        afford: '&aEşyalar gerekli:'
+        expensive: '&cEşyalar gerekli:'
+      list:
+        afford: '&a%s1 x %s2'
+        expensive: '&c%s1 x %s2'
+  item:
+    name: '&6&l%tier_name%'
+    lore:
+      title: '&8&lBu seviye size aşağıdaki sonuçları verecektir'
+      result: '&8%result_name%: &o%result_percentage%'
+      supportedMode: '&8Desteklenen generatörler: &6HEPSİ'
+  confirm:
+    cancel:
+      name: '&cİptal'
+      lore: '&8İptal etmek için tıklayın'
+    buy:
+      name: '&aSatın al'
+      lore: '&8Satın almayı tamamlamak için tıklayın'
+  upgrade:
+    title: '&6&lYükseltmek için seviye seçin'
+    lore:
+      upgrade: '&aYükseltmek için tıklayın'
+  admin:
+    title: '&4&lCCG: &cAdmin'
+    reload:
+      title: '&6&lConfig yenile'
+      lore:
+      - '&8Bütün dosyaları yeniler'
+      - '&7- config.yml'
+      - '&7- lang.yml'
+      - '&7- data/players.yml'
+      - '&7- data/signs.yml'
+    forcesave:
+      title: '&6&lZorla kurtar'
+      lore:
+      - '&8Oyuncuları dosyaları kurtarmaya zorlar'
+      - '&7- data/players.yml'
+      - '&r'
+      - '&cOyuncu bilgilerindeki büyük değişiklikler için faydalıdır'
+    forcebuy:
+      title: '&6&lZorla satın al'
+      lore:
+      - '&8Bir oyuncu için seviye satın al'
+      - '&r '
+      - '&cOyuncu seviye için para öder'
+      - '&cParaları olmasa bile ödemek zorundalar!'
+    givetier:
+      title: '&6&lSeviye verme'
+      lore:
+      - '&8Bir oyuncuya seviye verir'
+      - '&r '
+      - '&cOyuncu bu seviyeyi bedavaya alır'
+    settier:
+      title: '&6&lSeviye belirle'
+      lore:
+      - '&8Geçerli olan seviyeyi oyuncuya verir'
+      - '&r '
+      - '&cBu yeni bir seviye satın almaz'
+    withdraw:
+      title: '&6&lBir oyuncudan seviyeyi geri alma'
+      lore:
+      - '&8Satın alınmış bir seviyeyi oyuncudan geri alır'
+      - '&r '
+      - '&cEğer seçili seviye varsa seçimden çıkarır'
+      select: '&aBir seviyeyi geri almak için tıklayın'
+    createtier:
+      title: '&6&lYeni bir seviye oluşturma'
+      lore:
+      - '&8GUI kullanarak yeni bir seviye oluştur'
+    no-permission:
+      title: '&4&lNo permission'
+      lore: '&cSiz %s1 yetkisine sahip değilsiniz'
+  select:
+    player-select-skull:
+      title: '&e&l%player_name%'
+      lore:
+      - '&aClick to select %player_name%'
+    title: '&4&lCCG: &cOyuncu seçin'
+    next-page:
+      title: '&a&lSonraki sayfa'
+      lore:
+      - '&Sonraki sayfaya geçmek için tıklayın'
+      last-page:
+        title: '&a&lSıradaki sayfa'
+        lore:
+        - '&8Son sayfadasınız'
+    previous-page:
+      title: '&a&lÖnceki sayfa'
+      lore:
+      - '&8Önceki sayfaya gitmek için tıklayın'
+      first-page:
+        title: '&a&lÖnceki sayfa'
+        lore:
+        - '&8İlk sayfadasınız'
+    tier:
+      already-selected: '&4&lSeviye şu an seçili'
+      already-own: '&4&lSeviye zaten var'
+      title: '&4&lCCG: &cSeviye seçin'
+  close:
+    title: '&4&lKapat'
+    lore:
+    - '&cEnvanteri kapatmak için tıklayın'
+  create:
+    title: '&4&lCCG: &cSeviye oluşturuluyor'
+    info:
+      required: '&c**REQUIRED**'
+      emptyList: '&aNone'
+    class:
+      title: '&6&lTier class'
+      lore:
+      - '&8Define the tier class'
+      - '&r'
+      - '&7Current: &a%s1'
+    level:
+      title: '&6&lTier level'
+      lore:
+      - '&8Define the tier level'
+      - '&r'
+      - '&7Current: &a%s1'
+    icon:
+      title: '&6&lTier icon'
+      lore:
+      - '&8Define the tier icon material'
+      - '&r'
+      - '&7Current: &a%s1'
+    name:
+      title: '&6&lTier name'
+      lore:
+      - '&8Define the tier displayname'
+      - '&r'
+      - '&7Current: &a%s1'
+    results:
+      title: '&6&lTier results'
+      lore:
+      - '&8Define the results of the tier'
+      - '&r'
+      - '&7Current:'
+    requirements:
+      title: '&6&lTier requirements'
+      lore:
+      - '&8Define the requirements for the tier'
+      - '&r'
+      - '&7Currently &a%s1&7 requrirements in use'
+    description:
+      title: '&6&lTier description'
+      lore:
+      - '&8Define the description of the tier'
+      - '&cWill replace displayed results in the GUI'
+      - '&r'
+      - '&7Current:'
+no-tiers-defined: '&cThere are no tiers defined in the config'
+money-format: '###,###,###,###,###.##'
+tier-changed: Şu an %tier_name% seviyesine değiştirdiniz
+tier-purchased: Şu an %tier_name% seviyesini satın aldınız
+player-already-owns-tier: Oyuncu bu seviyeye zaten sahip
+player-does-not-own-tier: Oyuncu bu seviyeye sahip değil
+tier-unselected-success:
+  self: '&aSeviye oyuncu için seçilmedi'
+  other: '&cŞu an olan seviyeniz admin tarafından değiştirildi'
+tier-unpurchased-success:
+  self: '&aSeviye oyuncu tarafından alındı'
+  other: '&cSizin tarafınızdan alınan bir seviye bir admin tarafından geri alındı'
+tier-given: Seviye oyuncuya verildi
+tier-gotten: Yeni bir seviye açtınız
+tier-not-purchased: '&cBu seviyeyi daha satın almadınız'
+tier-not-locked: '&cBu seviye kilitli. Önceki seviyeyi satın alınız.'
+tier-not-found: '&cSeviye bulunamadı'
+tier-cant-afford: '&cBu seviyeye yeterli paranız yok'
+no-upgrades-available: '&Herhangi bir geliştirelebilir seviyeniz yok'
+upgrade-not-purchasable: '&cSatın almak için yeterli özelliklere sahip değilsiniz:'
+upgrade-not-purchasable-money: '&cSeviyeyi almak için %tier_price_money%$ paraya sahip
+  olmanız gerek'
+upgrade-not-purchasable-xp: '&cSeviyeyi almak için %tier_price_xp% XP olması lazım'
+upgrade-not-purchasable-level: '&cSeviyeyi almak için en az %tier_price_level% kadar
+  ada seviyenizin olması gerek'
+upgrade-not-purchasable-items: '&cBu seviyeyi almak için %tier_price_items% sahip
+  olmanız lazım'
+force-purchased: Size %player_name% için %selected_tier_name% seviyesi size verildi
+admin-command-usage: '&cUsage: /%command% [reload, forcesave, settier, givetier, forcebuy,
+  withdraw]'
+chatinput:
+  invalid:
+    default: '&4%s1 &cis a invalid input'
+    no-space: '&cSpaces are not allowed'
+    no-number: '&4%s1&c is not a valid number!'
+    unknown-material: '&4%s1&c is not a valid material!'
+  info:
+    class:
+    - '&7Editing tier &aclass'
+    - '&7Write the tier &aclass&7 in chat'
+    - '&cSpaces are not allowed'
+    icon:
+    - '&7Editing tier &aicon'
+    - '&7Write the tier &aicon material name&7 in chat'
+    - '&cUse Bukkit material names!'
+    level:
+    - '&7Editing tier &alevel'
+    - '&7Write the tier &alevel&7 in chat'
+    - '&cPositive numbers or zero only!'
+    name:
+    - '&7Editing tier &aname'
+    - '&7Write the tier &aname&7 in chat'
+    - '&cSpaces and colors are allowed!'
+    description:
+    - '&7Editing tier &adescription'
+    - '&7Write the tier &adescription&7 in chat'
+    - '&7Write &a%s1&7 for new line '
+    - '&cSpaces and colors are allowed!'
+    - '&cWrite &4&l"%s2"&c to delete description'
+    CANCEL: '&cWrite &4&l"%s1" &c to cancel'
+    results:
+      material:
+      - '&7Editing result &amaterial'
+      - '&7Write the result &amaterial name'
+      - '&cUse Bukkit material names!'
+signs:
+  GUI:
+    '0': '&3CustomCobbleGen'
+    '1': ' '
+    '2': '&lClick to open'
+    '3': '&lthe GUI'
+  select:
+    '0': '&3CustomCobbleGen'
+    '1': ' '
+    '2': '&lClick to select'
+    '3': '&a&l%tier_name%'
+  buy:
+    '0': '&3CustomCobbleGen'
+    '1': ''
+    '2': '&lClick to buy'
+    '3': '&a&l%tier_name%'
+  not-valid:
+    '0': '&3CustomCobbleGen'
+    '1': ''
+    '2': '&cNot a valid sign'
+    '3': ''
+  no-permission:
+    '0': '&3CustomCobbleGen'
+    '1': '&cYou do not have'
+    '2': '&cpermissions to'
+    '3': '&ccreate this sign'
+  success: Successfully created a clickable sign
+  deleted: '&cSign deleted'
+placeholders:
+  response:
+    owned: owned
+    not-owned: not owned
+placeholder:
+  response:
+    all: ALL

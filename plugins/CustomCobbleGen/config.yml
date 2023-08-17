@@ -1,0 +1,92 @@
+# CustomCobbleGen! Version: 1.4.3 By phil14052
+debug: false
+options:
+  playerSearchRadius: 4.0
+  money:
+    format: true
+  gui:
+    showBarrierBlockIfLocked: false
+    hideInfoIfLocked: false
+    confirmpurchases: true
+    admingui: true
+    seperateClassesByLines: true
+    centerTiers: true
+    showSupportedModes: true
+  signs:
+    enabled: true
+  automation:
+    pistons: false
+  supportWaterloggedBlocks: true
+  saveOnTierPurchase: true
+  disabled:
+    worlds:
+    - world_the_end
+  generationModes:
+    '0':
+      blocks:
+      - WATER
+      - LAVA
+      displayName: Cobblestone generator
+      fallback: COBBLESTONE
+    generationSound:
+      blocks: []
+tiers:
+  default:
+    '0':
+      name: Varsayılan
+      icon: COBBLESTONE
+      price:
+        money: 0
+      contains:
+        COBBLESTONE: 90
+        COAL_ORE: 10
+    '1':
+      name: Basit
+      icon: COAL_BLOCK
+      price:
+        money: 5000
+      contains:
+        COBBLESTONE: 70
+        COAL_ORE: 20
+        IRON_ORE: 10
+    '2':
+      name: Üst Seviye
+      icon: IRON_BLOCK
+      price:
+        money: 10000
+        items:
+          COBBLESTONE: 64
+      contains:
+        COBBLESTONE: 50
+        COAL_ORE: 30
+        IRON_ORE: 20
+  vip:
+    '0':
+      name: Basit VİP
+      icon: COBBLESTONE
+      price:
+        money: 3000
+        xp: 5
+      contains:
+        COBBLESTONE: 90
+        COAL_ORE: 5
+        IRON_ORE: 5
+    '1':
+      name: Üst Seviye VİP
+      icon: COAL_BLOCK
+      price:
+        money: 15000
+      contains:
+        COBBLESTONE: 60
+        COAL_ORE: 20
+        IRON_ORE: 20
+    '2':
+      name: Pro VİP
+      icon: IRON_BLOCK
+      price:
+        money: 40000
+      contains:
+        COBBLESTONE: 25
+        COAL_ORE: 35
+        IRON_ORE: 30
+        DIAMOND_ORE: 10
